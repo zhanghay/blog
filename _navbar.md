@@ -3,7 +3,7 @@
 - [<span class="iconfont icon-icon_fabu"></span> 导航](README.md)
   <!-- - [Java](README?id=Java) -->
   <!-- - [大数据](README?id=大数据) -->
-  - [Python](README?id=Python)
+  <!-- - [Python](README?id=Python) -->
   <!-- - [AI](README?id=AI) -->
   <!-- - [MySQL](README?id=MySQL) -->
   <!-- - [Netty](README?id=Netty) -->
