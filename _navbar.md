@@ -1,10 +1,10 @@
 <!-- - [<span class="iconfont icon-book3"></span> 首页](https://bytesfly.vercel.app/) -->
-[<span class="iconfont icon-book3"></span> 首页](https://zhanghay.github.io/) 
+- [<span class="iconfont icon-book3"></span> 首页](https://zhanghay.github.io/) 
 - [<span class="iconfont icon-icon_fabu"></span> 导航](README.md)
-  <!-- - [Java](README?id=Java) -->
-  <!-- - [大数据](README?id=大数据) -->
-  <!-- - [Python](README?id=Python) -->
-  <!-- - [AI](README?id=AI) -->
+  - [辅导工作](README?id=辅导工作)
+  - [研究工作](README?id=研究工作)
+  - [生活](README?id=生活)
+  - [收藏](README?id=收藏)
   <!-- - [MySQL](README?id=MySQL) -->
   <!-- - [Netty](README?id=Netty) -->
   <!-- - [设计模式](README?id=设计模式) -->
@@ -14,16 +14,17 @@
   <!-- - [面试题](README?id=面试题) -->
   <!-- - [LeetCode](README?id=LeetCode) -->
   
-- [<span class="iconfont icon-lianjie"></span> 友链](about/Friends.md)  
-<!-- - [<span class="iconfont icon-wodeguanzhu"></span> 关于本站](about/) -->
+<!-- - [<span class="iconfont icon-lianjie"></span> 友链](about/Friends.md)   -->
+- [<span class="iconfont icon-wodeguanzhu"></span> 关于本站](about/)
 - <span class="iconfont icon-xiangkan"></span> 探索
   <!-- - [Mac](https://bytesfly.github.io/playground-macos/) -->
   - [俄罗斯方块](https://binaryify.github.io/vue-tetris/?lan=zh)
   - [JSON在线解析](https://bytesfly.github.io/json/)
+  - [bilibili](https://www.bilibili.com)
   - [烟花](pages/fireworks.html ':ignore')
 <!-- - [<span class="iconfont icon-csdn"></span> 博客园](https://bytesfly.cnblogs.com/) -->
 <!-- - [⛷ 侠客岛](https://bytesfly.github.io/island/) -->
-- [<span class="iconfont icon-github1"></span> GitHub](https://github.com/zhanghay/zhanghay.github.io)
+<!-- - [<span class="iconfont icon-github1"></span> GitHub](https://github.com/zhanghay/zhanghay.github.io) -->
 
 
 
