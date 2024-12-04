@@ -20,7 +20,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/css/friends-link.css">
   <!-- 自定义特色样式：by myself -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/css/me.css">
-
+  <!-- 侧边文件夹视图 -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
   <style>
 
     /*加重描述strong*/
@@ -64,7 +65,7 @@
       text-decoration: none;
     }
 
-    /*侧边栏*/
+     /* 侧边栏 */
     .sidebar {
       padding-top: 6px;
     }
@@ -105,9 +106,9 @@
       border-radius: 50% !important;
       background-color: #fed24a !important;
       box-shadow: 0 0 0 3px rgba(254, 210, 74, 0.4) !important;
-    }
+    } 
 
-    /*以上调侧边栏*/
+    /* 以上调侧边栏 */
 
     /*h1 span{
       display:inline-block;
@@ -175,7 +176,8 @@
     .markdown-section pre>code {
       color: #c0c3c1 !important;
       font-family: 'Inconsolata', consolas,"PingFang SC", "Microsoft YaHei", monospace !important;
-      background-color: #212121 !important;    //#accfff  #282c34
+      background-color: #212121 !important;    
+      /* //#accfff  #282c34 */
       font-size: 15px !important;
       white-space: pre !important;
       line-height: 1.5 !important;
@@ -355,7 +357,12 @@
       nameLink: 'https://zhanghay.github.io/',
       //repo: 'wugenqiang/NoteBook',
       themeColor: '#007be8', // 主题颜色
-      //loadSidebar: true,//_sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
+      // loadSidebar: true,//_sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
+      // alias:{
+      //   '/.*/_sidebar.md': '/_sidebar.md',
+      // },
+      // subMaxLevel: 3, //目录最大层级
+      // sidebarDisplayLevel: 2, // set sidebar display level
       auto2top: true,  //当路线改变时,滚动到屏幕的顶部
       loadNavbar: true,//_navbar.md如果为真，则从_navbar.md文件加载navbar ，否则从指定的路径加载
       mergeNavbar: true,//Navbar将在小屏幕上与侧边栏合并
@@ -432,10 +439,25 @@
 
     }
   </script>
+  <!-- 字数统计 -->
+  <script>
+    window.$docsify = {
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      }
+    }
+  </script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/search.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/zoom-image.min.js"></script>
 
+  <!-- 侧边栏目录 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!-- 支持 DOT 语言 -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/viz.js"></script>
   <!-- 支持 LaTex 语言 -->
@@ -472,21 +494,21 @@
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-cpp.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-css.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-docker.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-java.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-java.js"></script> -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-javascript.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-json.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-latex.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-sql.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-sql.js"></script> -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-bash.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-php.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-scala.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-scala.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-nginx.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-json.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-markdown.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/prism-python.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/js/prism-yaml.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/src/js/prism-go.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/src/js/prism-go.js"></script> -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/StaticRepo/src/js/prism-matlab.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
 
